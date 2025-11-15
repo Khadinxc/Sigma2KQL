@@ -3,8 +3,7 @@
 // Date: 2024-02-23
 // Level: medium
 // Description: Detects remote binary or command execution via the ScreenConnect Service.
-Use this rule in order to hunt for potentially anomalous executions originating from ScreenConnect
-
+// Use this rule in order to hunt for potentially anomalous executions originating from ScreenConnect
 // MITRE Tactic: Execution
 // Tags: attack.execution, detection.threat-hunting
 // False Positives:

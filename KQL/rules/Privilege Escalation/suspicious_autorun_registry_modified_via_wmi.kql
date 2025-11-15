@@ -3,7 +3,6 @@
 // Date: 2025-02-17
 // Level: high
 // Description: Detects suspicious activity where the WMIC process is used to create an autorun registry entry via reg.exe, which is often indicative of persistence mechanisms employed by malware.
-
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.execution, attack.persistence, attack.t1547.001, attack.t1047
 // False Positives:

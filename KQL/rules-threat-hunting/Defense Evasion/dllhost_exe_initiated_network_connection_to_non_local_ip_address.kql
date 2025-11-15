@@ -3,9 +3,8 @@
 // Date: 2020-07-13
 // Level: medium
 // Description: Detects Dllhost.EXE initiating a network connection to a non-local IP address.
-Aside from Microsoft own IP range that needs to be excluded. Network communication from Dllhost will depend entirely on the hosted DLL.
-An initial baseline is recommended before deployment.
-
+// Aside from Microsoft own IP range that needs to be excluded. Network communication from Dllhost will depend entirely on the hosted DLL.
+// An initial baseline is recommended before deployment.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1218, attack.execution, attack.t1559.001, detection.threat-hunting
 // False Positives:

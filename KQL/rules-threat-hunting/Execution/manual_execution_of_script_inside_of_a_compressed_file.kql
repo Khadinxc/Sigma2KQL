@@ -3,14 +3,11 @@
 // Date: 2023-02-15
 // Level: medium
 // Description: This is a threat-hunting query to collect information related to the interactive execution of a script from inside a compressed file (zip/rar). Windows will automatically run the script using scripting interpreters such as wscript and cscript binaries.
-
-From the query below, the child process is the script interpreter that will execute the script. The script extension is also a set of standard extensions that Windows OS recognizes. Selections 1-3 contain three different execution scenarios.
-    1. Compressed file opened using 7zip.
-    2. Compressed file opened using WinRar.
-    3. Compressed file opened using native windows File Explorer capabilities.
-
-When the malicious script is double-clicked, it will be extracted to the respected directories as signified by the CommandLine on each of the three Selections. It will then be executed using the relevant script interpreter."
-
+// From the query below, the child process is the script interpreter that will execute the script. The script extension is also a set of standard extensions that Windows OS recognizes. Selections 1-3 contain three different execution scenarios.
+//     1. Compressed file opened using 7zip.
+//     2. Compressed file opened using WinRar.
+//     3. Compressed file opened using native windows File Explorer capabilities.
+// When the malicious script is double-clicked, it will be extracted to the respected directories as signified by the CommandLine on each of the three Selections. It will then be executed using the relevant script interpreter."
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059, detection.threat-hunting
 // False Positives:

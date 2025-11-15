@@ -3,8 +3,7 @@
 // Date: 2022-08-23
 // Level: high
 // Description: Detects Windows command lines that miss a space before or after the /c flag when running a command using the cmd.exe.
-This could be a sign of obfuscation of a fat finger problem (typo by the developer).
-
+// This could be a sign of obfuscation of a fat finger problem (typo by the developer).
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059.001
 

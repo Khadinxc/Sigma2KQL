@@ -3,10 +3,9 @@
 // Date: 2025-03-25
 // Level: high
 // Description: Detects potential ClickFix malware execution patterns by monitoring registry modifications in RunMRU keys containing HTTP/HTTPS links.
-ClickFix is known to be distributed through phishing campaigns and uses techniques like clipboard hijacking and fake CAPTCHA pages.
-Through the fakecaptcha pages, the adversary tricks users into opening the Run dialog box and pasting clipboard-hijacked content,
-such as one-liners that execute remotely hosted malicious files or scripts.
-
+// ClickFix is known to be distributed through phishing campaigns and uses techniques like clipboard hijacking and fake CAPTCHA pages.
+// Through the fakecaptcha pages, the adversary tricks users into opening the Run dialog box and pasting clipboard-hijacked content,
+// such as one-liners that execute remotely hosted malicious files or scripts.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1204.001
 // False Positives:

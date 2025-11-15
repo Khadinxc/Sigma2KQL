@@ -3,8 +3,7 @@
 // Date: 2024-07-29
 // Level: medium
 // Description: Detects file access requests to crypto currency files by uncommon processes.
-Could indicate potential attempt of crypto currency wallet stealing.
-
+// Could indicate potential attempt of crypto currency wallet stealing.
 // MITRE Tactic: Credential Access
 // Tags: attack.t1003, attack.credential-access
 // False Positives:

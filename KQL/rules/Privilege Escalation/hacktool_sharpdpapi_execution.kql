@@ -3,8 +3,7 @@
 // Date: 2024-06-26
 // Level: high
 // Description: Detects the execution of the SharpDPAPI tool based on CommandLine flags and PE metadata.
-SharpDPAPI is a C# port of some DPAPI functionality from the Mimikatz project.
-
+// SharpDPAPI is a C# port of some DPAPI functionality from the Mimikatz project.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.defense-evasion, attack.t1134.001, attack.t1134.003
 

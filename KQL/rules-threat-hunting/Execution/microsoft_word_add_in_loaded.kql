@@ -3,7 +3,6 @@
 // Date: 2024-07-10
 // Level: low
 // Description: Detects Microsoft Word loading an Add-In (.wll) file which can be used by threat actors for initial access or persistence.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1204.002, detection.threat-hunting
 // False Positives:

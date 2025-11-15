@@ -3,7 +3,6 @@
 // Date: 2023-07-16
 // Level: high
 // Description: Detects the redirection of Ursnif discovery commands as part of the initial execution of the malware.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059, detection.emerging-threats
 // False Positives:

@@ -3,7 +3,6 @@
 // Date: 2023-10-25
 // Level: medium
 // Description: Detects the creation of file by the "node.exe" process in the ".vscode-server" directory. Could be a sign of remote file creation via VsCode tunnel feature
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control
 

@@ -3,7 +3,6 @@
 // Date: 2022-03-17
 // Level: high
 // Description: Detects certain parent child patterns found in cases in which a web shell is used to perform certain credential dumping or exfiltration activities on a compromised system
-
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.discovery, attack.t1505.003, attack.t1018, attack.t1033, attack.t1087
 // False Positives:

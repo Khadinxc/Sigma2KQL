@@ -3,7 +3,6 @@
 // Date: 2024-01-02
 // Level: medium
 // Description: Detects the use of csrutil to disable the Configure System Integrity Protection (SIP). This technique is used in post-exploit scenarios.
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1518.001
 

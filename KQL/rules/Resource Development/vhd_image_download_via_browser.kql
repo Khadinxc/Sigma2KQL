@@ -3,8 +3,7 @@
 // Date: 2021-10-25
 // Level: medium
 // Description: Detects creation of ".vhd"/".vhdx" files by browser processes.
-Malware can use mountable Virtual Hard Disk ".vhd" files to encapsulate payloads and evade security controls.
-
+// Malware can use mountable Virtual Hard Disk ".vhd" files to encapsulate payloads and evade security controls.
 // MITRE Tactic: Resource Development
 // Tags: attack.resource-development, attack.t1587.001
 // False Positives:

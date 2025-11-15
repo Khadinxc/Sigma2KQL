@@ -3,8 +3,7 @@
 // Date: 2019-05-15
 // Level: high
 // Description: Detects Non-Standard tools initiating a connection over port 3389 indicating possible lateral movement.
-An initial baseline is required before using this utility to exclude third party RDP tooling that you might use.
-
+// An initial baseline is required before using this utility to exclude third party RDP tooling that you might use.
 // MITRE Tactic: Lateral Movement
 // Tags: attack.lateral-movement, attack.t1021.001, car.2013-07-002
 // False Positives:

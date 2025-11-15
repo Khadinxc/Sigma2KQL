@@ -3,9 +3,8 @@
 // Date: 2024-02-02
 // Level: medium
 // Description: An adversary might use WMI to discover information about the system, such as the volume name, size,
-free space, and other disk information. This can be done using the 'wmic' command-line utility and has been
-observed being used by threat actors such as Volt Typhoon.
-
+// free space, and other disk information. This can be done using the 'wmic' command-line utility and has been
+// observed being used by threat actors such as Volt Typhoon.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.discovery, attack.t1047, attack.t1082
 

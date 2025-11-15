@@ -3,7 +3,6 @@
 // Date: 2022-08-28
 // Level: medium
 // Description: Detects a script interpreter (Wscript/Cscript) initiating a local network connection to download or execute a script hosted on a shared folder.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1105
 // False Positives:

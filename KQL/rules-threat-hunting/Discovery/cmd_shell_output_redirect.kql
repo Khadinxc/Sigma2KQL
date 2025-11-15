@@ -3,8 +3,7 @@
 // Date: 2022-01-22
 // Level: low
 // Description: Detects the use of the redirection character ">" to redirect information on the command line.
-This technique is sometimes used by malicious actors in order to redirect the output of reconnaissance commands such as "hostname" and "dir" to files for future exfiltration.
-
+// This technique is sometimes used by malicious actors in order to redirect the output of reconnaissance commands such as "hostname" and "dir" to files for future exfiltration.
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1082, detection.threat-hunting
 // False Positives:

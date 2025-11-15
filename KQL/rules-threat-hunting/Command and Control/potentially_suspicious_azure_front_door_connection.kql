@@ -3,8 +3,7 @@
 // Date: 2024-11-07
 // Level: medium
 // Description: Detects connections with Azure Front Door (known legitimate service that can be leveraged for C2)
-that fall outside of known benign behavioral baseline (not using common apps or common azurefd.net endpoints)
-
+// that fall outside of known benign behavioral baseline (not using common apps or common azurefd.net endpoints)
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1102.002, attack.t1090.004, detection.threat-hunting
 // False Positives:

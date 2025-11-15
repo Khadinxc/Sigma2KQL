@@ -3,9 +3,8 @@
 // Date: 2021-11-03
 // Level: medium
 // Description: Detects execution of Cmdl32 with the "/vpn" and "/lan" flags.
-Attackers can abuse this utility in order to download arbitrary files via a configuration file.
-Inspect the location and the content of the file passed as an argument in order to determine if it is suspicious.
-
+// Attackers can abuse this utility in order to download arbitrary files via a configuration file.
+// Inspect the location and the content of the file passed as an argument in order to determine if it is suspicious.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.defense-evasion, attack.t1218, attack.t1202
 

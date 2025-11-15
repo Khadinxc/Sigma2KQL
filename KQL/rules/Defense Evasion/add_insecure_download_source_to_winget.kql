@@ -3,8 +3,7 @@
 // Date: 2023-04-17
 // Level: high
 // Description: Detects usage of winget to add a new insecure (http) download source.
-Winget will not allow the addition of insecure sources, hence this could indicate potential suspicious activity (or typos)
-
+// Winget will not allow the addition of insecure sources, hence this could indicate potential suspicious activity (or typos)
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.execution, attack.t1059
 // False Positives:

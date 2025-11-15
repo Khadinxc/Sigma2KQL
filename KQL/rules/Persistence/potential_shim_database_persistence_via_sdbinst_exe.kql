@@ -3,8 +3,7 @@
 // Date: 2019-01-16
 // Level: medium
 // Description: Detects installation of a new shim using sdbinst.exe.
-Adversaries may establish persistence and/or elevate privileges by executing malicious content triggered by application shims
-
+// Adversaries may establish persistence and/or elevate privileges by executing malicious content triggered by application shims
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.privilege-escalation, attack.t1546.011
 

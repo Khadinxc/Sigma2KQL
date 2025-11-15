@@ -3,8 +3,7 @@
 // Date: 2025-10-18
 // Level: high
 // Description: Detects execution of the Kaspersky init.d stop script on Linux systems either directly or via systemctl.
-This activity may indicate a manual interruption of the antivirus service by an administrator, or it could be a sign of potential tampering or evasion attempts by malicious actors.
-
+// This activity may indicate a manual interruption of the antivirus service by an administrator, or it could be a sign of potential tampering or evasion attempts by malicious actors.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.defense-evasion, attack.t1562.001
 // False Positives:

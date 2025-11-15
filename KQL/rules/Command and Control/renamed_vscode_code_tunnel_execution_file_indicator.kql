@@ -3,7 +3,6 @@
 // Date: 2023-10-25
 // Level: high
 // Description: Detects the creation of a file with the name "code_tunnel.json" which indicate execution and usage of VsCode tunneling utility by an "Image" or "Process" other than VsCode.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control
 

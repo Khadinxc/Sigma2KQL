@@ -3,8 +3,7 @@
 // Date: 2023-10-27
 // Level: high
 // Description: Detects the execution of rundll32 that leads to an external network connection.
-The malware Pikabot has been seen to use this technique to initiate C2-communication through hard-coded Windows binaries.
-
+// The malware Pikabot has been seen to use this technique to initiate C2-communication through hard-coded Windows binaries.
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1573, detection.emerging-threats
 // False Positives:

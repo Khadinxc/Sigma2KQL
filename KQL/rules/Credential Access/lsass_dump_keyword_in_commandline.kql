@@ -3,7 +3,6 @@
 // Date: 2019-10-24
 // Level: high
 // Description: Detects the presence of the keywords "lsass" and ".dmp" in the commandline, which could indicate a potential attempt to dump or create a dump of the lsass process.
-
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1003.001
 // False Positives:

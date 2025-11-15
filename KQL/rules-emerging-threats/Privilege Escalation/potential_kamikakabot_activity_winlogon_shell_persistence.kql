@@ -3,7 +3,6 @@
 // Date: 2024-03-22
 // Level: high
 // Description: Detects changes to the "Winlogon" registry key where a process will set the value of the "Shell" to a value that was observed being used by KamiKakaBot samples in order to achieve persistence.
-
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.t1547.001, detection.emerging-threats
 // False Positives:

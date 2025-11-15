@@ -3,7 +3,6 @@
 // Date: 2020-07-22
 // Level: high
 // Description: Detects processes spawned from web servers (PHP, Tomcat, IIS, etc.) that perform reconnaissance looking for the existence of popular scripting tools (perl, python, wget) on the system via the help commands
-
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.t1505.003
 

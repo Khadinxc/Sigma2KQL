@@ -3,7 +3,6 @@
 // Date: 2020-10-19
 // Level: informational
 // Description: Detects usage of system utilities such as "find", "tree", "findmnt", etc, to discover files, directories and network shares.
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1083
 // False Positives:

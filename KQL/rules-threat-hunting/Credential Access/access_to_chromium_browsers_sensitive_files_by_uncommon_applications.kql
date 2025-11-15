@@ -3,8 +3,7 @@
 // Date: 2024-07-29
 // Level: low
 // Description: Detects file access requests to chromium based browser sensitive files by uncommon processes.
-Could indicate potential attempt of stealing sensitive information.
-
+// Could indicate potential attempt of stealing sensitive information.
 // MITRE Tactic: Credential Access
 // Tags: attack.t1003, attack.credential-access, detection.threat-hunting
 // False Positives:

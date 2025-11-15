@@ -3,7 +3,6 @@
 // Date: 2024-01-26
 // Level: high
 // Description: Detects the execution of SOAPHound, a .NET tool for collecting Active Directory data, using specific command-line arguments that may indicate an attempt to extract sensitive AD information.
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1087
 

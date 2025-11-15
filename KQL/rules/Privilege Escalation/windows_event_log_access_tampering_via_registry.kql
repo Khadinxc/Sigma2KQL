@@ -3,7 +3,6 @@
 // Date: 2025-01-16
 // Level: high
 // Description: Detects changes to the Windows EventLog channel permission values. It focuses on changes to the Security Descriptor Definition Language (SDDL) string, as modifications to these values can restrict access to specific users or groups, potentially aiding in defense evasion by controlling who can view or modify a event log channel. Upon execution, the user shouldn't be able to access the event log channel via the event viewer or via utilities such as "Get-EventLog" or "wevtutil".
-
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.defense-evasion, attack.t1547.001, attack.t1112
 // False Positives:

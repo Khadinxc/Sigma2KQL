@@ -3,8 +3,7 @@
 // Date: 2021-06-10
 // Level: high
 // Description: Detects potential persistence activity via outlook today page.
-An attacker can set a custom page to execute arbitrary code and link to it via the registry values "URL" and "UserDefinedUrl".
-
+// An attacker can set a custom page to execute arbitrary code and link to it via the registry values "URL" and "UserDefinedUrl".
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.persistence, attack.t1112
 

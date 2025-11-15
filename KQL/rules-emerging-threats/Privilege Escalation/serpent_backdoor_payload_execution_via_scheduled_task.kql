@@ -3,9 +3,8 @@
 // Date: 2022-03-21
 // Level: high
 // Description: Detects post exploitation execution technique of the Serpent backdoor.
-According to Proofpoint, one of the commands that the backdoor ran was via creating a temporary scheduled task using an unusual method.
-It creates a fictitious windows event and a trigger in which once the event is created, it executes the payload.
-
+// According to Proofpoint, one of the commands that the backdoor ran was via creating a temporary scheduled task using an unusual method.
+// It creates a fictitious windows event and a trigger in which once the event is created, it executes the payload.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.execution, attack.persistence, attack.t1053.005, attack.t1059.006, detection.emerging-threats
 // False Positives:

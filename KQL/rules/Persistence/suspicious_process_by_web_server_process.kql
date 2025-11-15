@@ -3,7 +3,6 @@
 // Date: 2019-01-16
 // Level: high
 // Description: Detects potentially suspicious processes being spawned by a web server process which could be the result of a successfully placed web shell or exploitation
-
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.initial-access, attack.t1505.003, attack.t1190
 // False Positives:

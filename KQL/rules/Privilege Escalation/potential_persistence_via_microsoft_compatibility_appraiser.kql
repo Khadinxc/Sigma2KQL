@@ -3,8 +3,7 @@
 // Date: 2020-09-29
 // Level: medium
 // Description: Detects manual execution of the "Microsoft Compatibility Appraiser" task via schtasks.
-In order to trigger persistence stored in the "\AppCompatFlags\TelemetryController" registry key.
-
+// In order to trigger persistence stored in the "\AppCompatFlags\TelemetryController" registry key.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.execution, attack.persistence, attack.t1053.005
 

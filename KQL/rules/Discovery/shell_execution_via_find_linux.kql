@@ -3,7 +3,6 @@
 // Date: 2024-09-02
 // Level: high
 // Description: Detects the use of the find command to execute a shell. Such behavior may be associated with privilege escalation, unauthorized command execution, or exploitation attempt.
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1083
 

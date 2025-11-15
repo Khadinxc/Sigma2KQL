@@ -3,8 +3,7 @@
 // Date: 2019-01-16
 // Level: medium
 // Description: Detects suspicious reconnaissance command line activity on Windows systems using Net.EXE
-Check if the user that executed the commands is suspicious (e.g. service accounts, LOCAL_SYSTEM)
-
+// Check if the user that executed the commands is suspicious (e.g. service accounts, LOCAL_SYSTEM)
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1087.001, attack.t1087.002
 // False Positives:

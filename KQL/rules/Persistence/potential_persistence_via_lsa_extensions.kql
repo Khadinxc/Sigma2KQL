@@ -3,8 +3,7 @@
 // Date: 2022-07-21
 // Level: high
 // Description: Detects when an attacker modifies the "REG_MULTI_SZ" value named "Extensions" to include a custom DLL to achieve persistence via lsass.
-The "Extensions" list contains filenames of DLLs being automatically loaded by lsass.exe. Each DLL has its InitializeLsaExtension() method called after loading.
-
+// The "Extensions" list contains filenames of DLLs being automatically loaded by lsass.exe. Each DLL has its InitializeLsaExtension() method called after loading.
 // MITRE Tactic: Persistence
 // Tags: attack.persistence
 // False Positives:

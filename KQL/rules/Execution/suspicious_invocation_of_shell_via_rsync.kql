@@ -3,7 +3,6 @@
 // Date: 2025-01-18
 // Level: high
 // Description: Detects the execution of a shell as sub process of "rsync" without the expected command line flag "-e" being used, which could be an indication of exploitation as described in CVE-2024-12084. This behavior is commonly associated with attempts to execute arbitrary commands or escalate privileges, potentially leading to unauthorized access or further exploitation.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059, attack.t1203
 

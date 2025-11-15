@@ -3,8 +3,7 @@
 // Date: 2020-07-03
 // Level: medium
 // Description: Detects a suspicious copy operation that tries to copy a program from system (System32, SysWOW64, WinSxS) directories to another on disk.
-Often used to move LOLBINs such as 'certutil' or 'desktopimgdownldr' to a different location with a different name in order to bypass detections based on locations.
-
+// Often used to move LOLBINs such as 'certutil' or 'desktopimgdownldr' to a different location with a different name in order to bypass detections based on locations.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1036.003
 // False Positives:

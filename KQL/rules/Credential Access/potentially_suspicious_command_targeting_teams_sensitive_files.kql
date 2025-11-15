@@ -3,8 +3,7 @@
 // Date: 2022-09-16
 // Level: medium
 // Description: Detects a commandline containing references to the Microsoft Teams database or cookies files from a process other than Teams.
-The database might contain authentication tokens and other sensitive information about the logged in accounts.
-
+// The database might contain authentication tokens and other sensitive information about the logged in accounts.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1528
 

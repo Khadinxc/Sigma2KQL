@@ -3,9 +3,8 @@
 // Date: 2023-10-15
 // Level: high
 // Description: Detects execution of the legitimate Autoit3 utility from a suspicious parent process. AutoIt3.exe is used within
-the DarkGate infection chain to execute shellcode that performs process injection and connects to the DarkGate
-command-and-control server.
-
+// the DarkGate infection chain to execute shellcode that performs process injection and connects to the DarkGate
+// command-and-control server.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059, detection.emerging-threats
 // False Positives:

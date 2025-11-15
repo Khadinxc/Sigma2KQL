@@ -3,8 +3,7 @@
 // Date: 2020-10-06
 // Level: low
 // Description: Detects the use of at/atd which are utilities that are used to schedule tasks.
-They are often abused by adversaries to maintain persistence or to perform task scheduling for initial or recurring execution of malicious code
-
+// They are often abused by adversaries to maintain persistence or to perform task scheduling for initial or recurring execution of malicious code
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.execution, attack.persistence, attack.t1053.002
 // False Positives:

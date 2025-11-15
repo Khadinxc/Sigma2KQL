@@ -3,7 +3,6 @@
 // Date: 2024-12-19
 // Level: high
 // Description: File .conf created related to VenomRAT, AsyncRAT and Lummac samples observed in the wild.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, detection.emerging-threats
 // False Positives:

@@ -3,8 +3,7 @@
 // Date: 2024-04-16
 // Level: medium
 // Description: Detects command line patterns associated with the use of Pnscan for sending and receiving binary data across the network.
-This behavior has been identified in a Linux malware campaign targeting Docker, Apache Hadoop, Redis, and Confluence and was previously used by the threat actor known as TeamTNT
-
+// This behavior has been identified in a Linux malware campaign targeting Docker, Apache Hadoop, Redis, and Confluence and was previously used by the threat actor known as TeamTNT
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1046
 

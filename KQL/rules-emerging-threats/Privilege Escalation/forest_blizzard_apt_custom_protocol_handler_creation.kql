@@ -3,8 +3,7 @@
 // Date: 2024-04-23
 // Level: high
 // Description: Detects the setting of a custom protocol handler with the name "rogue".
-Seen being created by Forest Blizzard APT as reported by MSFT.
-
+// Seen being created by Forest Blizzard APT as reported by MSFT.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.t1547.001, detection.emerging-threats
 // False Positives:

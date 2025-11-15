@@ -3,7 +3,6 @@
 // Date: 2024-08-03
 // Level: medium
 // Description: Detects execution of "cmd.exe" via the AnyViewer RMM agent on a remote management sessions.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.persistence, detection.threat-hunting
 // False Positives:

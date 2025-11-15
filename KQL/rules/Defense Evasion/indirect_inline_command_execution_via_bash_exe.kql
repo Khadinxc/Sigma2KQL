@@ -3,8 +3,7 @@
 // Date: 2021-11-24
 // Level: medium
 // Description: Detects execution of Microsoft bash launcher with the "-c" flag.
-This can be used to potentially bypass defenses and execute Linux or Windows-based binaries directly via bash.
-
+// This can be used to potentially bypass defenses and execute Linux or Windows-based binaries directly via bash.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1202
 

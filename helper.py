@@ -174,7 +174,17 @@ for rule_folder in RULE_FOLDERS:
                 kql_file.write(f'// Author: {yaml_contents.get("author", "")}\n')
                 kql_file.write(f'// Date: {yaml_contents.get("date", "")}\n')
                 kql_file.write(f'// Level: {yaml_contents.get("level", "")}\n')
-                kql_file.write(f'// Description: {yaml_contents.get("description", "")}\n')
+                
+                # Handle multi-line descriptions
+                description = yaml_contents.get("description", "")
+                if description:
+                    # Split by newlines and comment each line
+                    desc_lines = description.split('\n')
+                    kql_file.write(f'// Description: {desc_lines[0]}\n')
+                    for line in desc_lines[1:]:
+                        if line.strip():  # Only write non-empty lines
+                            kql_file.write(f'// {line}\n')
+                
                 kql_file.write(f'// MITRE Tactic: {TACTIC_FOLDER}\n')
                 kql_file.write(f'// Tags: {", ".join(tags) if tags else ""}\n')
 

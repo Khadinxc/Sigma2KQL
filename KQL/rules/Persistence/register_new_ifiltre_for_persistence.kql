@@ -3,8 +3,7 @@
 // Date: 2022-07-21
 // Level: medium
 // Description: Detects when an attacker registers a new IFilter for an extension. Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.
-You can extend Windows Search to index new or proprietary file types by writing filters to extract the content, and property handlers to extract the properties of files.
-
+// You can extend Windows Search to index new or proprietary file types by writing filters to extract the content, and property handlers to extract the properties of files.
 // MITRE Tactic: Persistence
 // Tags: attack.persistence
 // False Positives:

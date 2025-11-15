@@ -3,8 +3,7 @@
 // Date: 2022-02-04
 // Level: medium
 // Description: Detects changes to the "ServiceDLL" value related to a service in the registry.
-This is often used as a method of persistence.
-
+// This is often used as a method of persistence.
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.privilege-escalation, attack.t1543.003
 // False Positives:

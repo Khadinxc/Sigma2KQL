@@ -3,8 +3,7 @@
 // Date: 2024-09-02
 // Level: high
 // Description: Detects the execution of "awk" or it's sibling commands, to invoke a shell using the system() function.
-This behavior is commonly associated with attempts to execute arbitrary commands or escalate privileges, potentially leading to unauthorized access or further exploitation.
-
+// This behavior is commonly associated with attempts to execute arbitrary commands or escalate privileges, potentially leading to unauthorized access or further exploitation.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059
 

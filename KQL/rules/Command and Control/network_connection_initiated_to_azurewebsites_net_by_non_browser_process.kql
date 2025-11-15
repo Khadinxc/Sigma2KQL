@@ -3,7 +3,6 @@
 // Date: 2024-06-24
 // Level: medium
 // Description: Detects an initiated network connection by a non browser process on the system to "azurewebsites.net". The latter was often used by threat actors as a malware hosting and exfiltration site.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1102, attack.t1102.001
 

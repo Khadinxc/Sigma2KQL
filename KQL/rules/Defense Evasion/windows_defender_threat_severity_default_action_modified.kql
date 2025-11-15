@@ -3,9 +3,8 @@
 // Date: 2025-07-11
 // Level: high
 // Description: Detects modifications or creations of Windows Defender's default threat action settings based on severity to 'allow' or take 'no action'.
-This is a highly suspicious configuration change that effectively disables Defender's ability to automatically mitigate threats of a certain severity level,
-allowing malicious software to run unimpeded. An attacker might use this technique to bypass defenses before executing payloads.
-
+// This is a highly suspicious configuration change that effectively disables Defender's ability to automatically mitigate threats of a certain severity level,
+// allowing malicious software to run unimpeded. An attacker might use this technique to bypass defenses before executing payloads.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1562.001
 // False Positives:

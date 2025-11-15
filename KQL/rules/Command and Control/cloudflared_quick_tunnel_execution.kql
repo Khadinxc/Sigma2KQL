@@ -3,9 +3,8 @@
 // Date: 2023-12-20
 // Level: medium
 // Description: Detects creation of an ad-hoc Cloudflare Quick Tunnel, which can be used to tunnel local services such as HTTP, RDP, SSH and SMB.
-The free TryCloudflare Quick Tunnel will generate a random subdomain on trycloudflare[.]com, following a call to api[.]trycloudflare[.]com.
-The tool has been observed in use by threat groups including Akira ransomware.
-
+// The free TryCloudflare Quick Tunnel will generate a random subdomain on trycloudflare[.]com, following a call to api[.]trycloudflare[.]com.
+// The tool has been observed in use by threat groups including Akira ransomware.
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1090.001
 // False Positives:

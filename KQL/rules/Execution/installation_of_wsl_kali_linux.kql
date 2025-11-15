@@ -3,8 +3,7 @@
 // Date: 2025-10-10
 // Level: high
 // Description: Detects installation of Kali Linux distribution through Windows Subsystem for Linux (WSL).
-Attackers may use Kali Linux WSL to leverage its penetration testing tools and capabilities for malicious purposes.
-
+// Attackers may use Kali Linux WSL to leverage its penetration testing tools and capabilities for malicious purposes.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059
 // False Positives:

@@ -3,8 +3,7 @@
 // Date: 2020-10-07
 // Level: medium
 // Description: Detects the execution of Xwizard tool with the "RunWizard" flag and a GUID like argument.
-This utility can be abused in order to run custom COM object created in the registry.
-
+// This utility can be abused in order to run custom COM object created in the registry.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1218
 

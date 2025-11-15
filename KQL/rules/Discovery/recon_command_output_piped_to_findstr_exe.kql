@@ -3,8 +3,7 @@
 // Date: 2023-07-06
 // Level: medium
 // Description: Detects the execution of a potential recon command where the results are piped to "findstr". This is meant to trigger on inline calls of "cmd.exe" via the "/c" or "/k" for example.
-Attackers often time use this technique to extract specific information they require in their reconnaissance phase.
-
+// Attackers often time use this technique to extract specific information they require in their reconnaissance phase.
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1057
 

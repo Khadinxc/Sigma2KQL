@@ -3,7 +3,6 @@
 // Date: 2023-12-20
 // Level: medium
 // Description: Detects the execution of the "cloudflared" binary from a non standard location.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1090.001
 // False Positives:

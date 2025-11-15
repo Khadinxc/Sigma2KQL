@@ -3,10 +3,9 @@
 // Date: 2020-10-16
 // Level: high
 // Description: Detects potential persistence behavior using the windows telemetry registry key.
-Windows telemetry makes use of the binary CompatTelRunner.exe to run a variety of commands and perform the actual telemetry collections.
-This binary was created to be easily extensible, and to that end, it relies on the registry to instruct on which commands to run.
-The problem is, it will run any arbitrary command without restriction of location or type.
-
+// Windows telemetry makes use of the binary CompatTelRunner.exe to run a variety of commands and perform the actual telemetry collections.
+// This binary was created to be easily extensible, and to that end, it relies on the registry to instruct on which commands to run.
+// The problem is, it will run any arbitrary command without restriction of location or type.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.execution, attack.persistence, attack.t1053.005
 

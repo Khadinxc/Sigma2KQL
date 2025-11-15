@@ -3,7 +3,6 @@
 // Date: 2023-05-01
 // Level: medium
 // Description: Detects a non-browser process interacting with the Google API which could indicate the use of a covert C2 such as Google Sheet C2 (GC2-sheet)
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1102
 // False Positives:

@@ -3,8 +3,7 @@
 // Date: 2022-08-30
 // Level: high
 // Description: Detects a network connection initiated by Cmstp.EXE
-Its uncommon for "cmstp.exe" to initiate an outbound network connection. Investigate the source of such requests to determine if they are malicious.
-
+// Its uncommon for "cmstp.exe" to initiate an outbound network connection. Investigate the source of such requests to determine if they are malicious.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1218.003
 

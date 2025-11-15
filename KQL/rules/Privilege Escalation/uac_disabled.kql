@@ -3,7 +3,6 @@
 // Date: 2022-01-05
 // Level: medium
 // Description: Detects when an attacker tries to disable User Account Control (UAC) by setting the registry value "EnableLUA" to 0.
-
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.defense-evasion, attack.t1548.002
 

@@ -3,8 +3,7 @@
 // Date: 2025-07-24
 // Level: high
 // Description: Detects suspicious file writes to SharePoint layouts directory which could indicate webshell activity or post-exploitation.
-This behavior has been observed in the exploitation of SharePoint vulnerabilities such as CVE-2025-49704, CVE-2025-49706 or CVE-2025-53770.
-
+// This behavior has been observed in the exploitation of SharePoint vulnerabilities such as CVE-2025-49704, CVE-2025-49706 or CVE-2025-53770.
 // MITRE Tactic: Initial Access
 // Tags: attack.initial-access, attack.t1190, attack.persistence, attack.t1505.003
 

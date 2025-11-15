@@ -3,14 +3,11 @@
 // Date: 2020-05-02
 // Level: low
 // Description: Detects the creation of PFX files (Personal Information Exchange format).
-PFX files contain private keys and certificates bundled together, making them valuable targets for attackers seeking to:
-
-    - Exfiltrate digital certificates for impersonation or signing malicious code
-    - Establish persistent access through certificate-based authentication
-    - Bypass security controls that rely on certificate validation
-
-Analysts should investigate PFX file creation events by examining which process created the PFX file and its parent process chain, as well as unusual locations outside standard certificate stores or development environments.
-
+// PFX files contain private keys and certificates bundled together, making them valuable targets for attackers seeking to:
+//     - Exfiltrate digital certificates for impersonation or signing malicious code
+//     - Establish persistent access through certificate-based authentication
+//     - Bypass security controls that rely on certificate validation
+// Analysts should investigate PFX file creation events by examining which process created the PFX file and its parent process chain, as well as unusual locations outside standard certificate stores or development environments.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1552.004, detection.threat-hunting
 // False Positives:

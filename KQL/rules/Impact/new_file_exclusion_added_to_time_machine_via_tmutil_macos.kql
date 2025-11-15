@@ -3,8 +3,7 @@
 // Date: 2024-05-29
 // Level: medium
 // Description: Detects the addition of a new file or path exclusion to MacOS Time Machine via the "tmutil" utility.
-An adversary could exclude a path from Time Machine backups to prevent certain files from being backed up.
-
+// An adversary could exclude a path from Time Machine backups to prevent certain files from being backed up.
 // MITRE Tactic: Impact
 // Tags: attack.impact, attack.t1490
 // False Positives:

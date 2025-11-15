@@ -3,9 +3,8 @@
 // Date: 2021-12-13
 // Level: medium
 // Description: Detects the deletion of backups or system state backups via "wbadmin.exe".
-This technique is used by numerous ransomware families and actors.
-This may only be successful on server platforms that have Windows Backup enabled.
-
+// This technique is used by numerous ransomware families and actors.
+// This may only be successful on server platforms that have Windows Backup enabled.
 // MITRE Tactic: Impact
 // Tags: attack.impact, attack.t1490
 // False Positives:

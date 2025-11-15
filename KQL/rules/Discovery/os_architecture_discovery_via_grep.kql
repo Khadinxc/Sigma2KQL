@@ -3,7 +3,6 @@
 // Date: 2023-06-02
 // Level: low
 // Description: Detects the use of grep to identify information about the operating system architecture. Often combined beforehand with the execution of "uname" or "cat /proc/cpuinfo"
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1082
 

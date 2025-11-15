@@ -3,7 +3,6 @@
 // Date: 2023-05-16
 // Level: medium
 // Description: Detects changes to the Internet Explorer "DisableFirstRunCustomize" value, which prevents Internet Explorer from running the first run wizard the first time a user starts the browser after installing Internet Explorer or Windows.
-
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion
 // False Positives:

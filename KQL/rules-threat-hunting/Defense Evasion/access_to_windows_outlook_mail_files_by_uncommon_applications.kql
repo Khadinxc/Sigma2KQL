@@ -3,9 +3,8 @@
 // Date: 2024-05-10
 // Level: low
 // Description: Detects file access requests to Windows Outlook Mail by uncommon processes.
-Could indicate potential attempt of credential stealing.
-Requires heavy baselining before usage
-
+// Could indicate potential attempt of credential stealing.
+// Requires heavy baselining before usage
 // MITRE Tactic: Defense Evasion
 // Tags: attack.t1070.008, attack.defense-evasion, detection.threat-hunting
 // False Positives:

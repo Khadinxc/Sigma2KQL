@@ -3,7 +3,6 @@
 // Date: 2024-09-02
 // Level: high
 // Description: Detects the use of the "capsh" utility to invoke a shell.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059
 

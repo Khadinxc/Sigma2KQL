@@ -3,7 +3,6 @@
 // Date: 2022-02-25
 // Level: medium
 // Description: Detects potentially suspicious child processes launched via the ScreenConnect client service.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1219.002
 // False Positives:

@@ -3,9 +3,8 @@
 // Date: 2024-12-01
 // Level: medium
 // Description: Detects the execution of "Setup16.EXE" and old installation utility with a custom ".lst" file.
-These ".lst" file can contain references to external program that "Setup16.EXE" will execute.
-Attackers and adversaries might leverage this as a living of the land utility.
-
+// These ".lst" file can contain references to external program that "Setup16.EXE" will execute.
+// Attackers and adversaries might leverage this as a living of the land utility.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.defense-evasion, attack.t1574.005
 // False Positives:

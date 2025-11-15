@@ -3,10 +3,9 @@
 // Date: 2025-06-05
 // Level: medium
 // Description: Detects the execution of PowerShell commands that attempt to install MSI packages via the
-Windows Installer COM object (`WindowsInstaller.Installer`) hosted remotely.
-This could be indication of malicious software deployment or lateral movement attempts using Windows Installer functionality.
-And the usage of WindowsInstaller COM object rather than msiexec could be an attempt to bypass the detection.
-
+// Windows Installer COM object (`WindowsInstaller.Installer`) hosted remotely.
+// This could be indication of malicious software deployment or lateral movement attempts using Windows Installer functionality.
+// And the usage of WindowsInstaller COM object rather than msiexec could be an attempt to bypass the detection.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059.001, attack.defense-evasion, attack.t1218, attack.command-and-control, attack.t1105
 

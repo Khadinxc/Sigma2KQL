@@ -3,7 +3,6 @@
 // Date: 2023-10-25
 // Level: medium
 // Description: Detects the creation of a file with the name "code_tunnel.json" which indicate execution and usage of VsCode tunneling utility. Attackers can abuse this functionality to establish a C2 channel
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, detection.threat-hunting
 // False Positives:

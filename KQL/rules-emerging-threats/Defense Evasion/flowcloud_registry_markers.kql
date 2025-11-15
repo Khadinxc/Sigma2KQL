@@ -3,8 +3,7 @@
 // Date: 2020-06-09
 // Level: critical
 // Description: Detects FlowCloud malware registry markers from threat group TA410.
-The malware stores its configuration in the registry alongside drivers utilized by the malware's keylogger components.
-
+// The malware stores its configuration in the registry alongside drivers utilized by the malware's keylogger components.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.persistence, attack.t1112, detection.emerging-threats
 // False Positives:

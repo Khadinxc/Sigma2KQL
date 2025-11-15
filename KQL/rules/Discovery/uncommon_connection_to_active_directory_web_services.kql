@@ -3,7 +3,6 @@
 // Date: 2024-01-26
 // Level: medium
 // Description: Detects uncommon network connections to the Active Directory Web Services (ADWS) from processes not typically associated with ADWS management.
-
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1087
 // False Positives:

@@ -3,8 +3,7 @@
 // Date: 2024-05-10
 // Level: high
 // Description: Detects the dump of highly sensitive files such as "NTDS.DIT" and "SECURITY" hive.
-Attackers can leverage the "wbadmin" utility in order to dump sensitive files that might contain credential or sensitive information.
-
+// Attackers can leverage the "wbadmin" utility in order to dump sensitive files that might contain credential or sensitive information.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1003.003
 // False Positives:

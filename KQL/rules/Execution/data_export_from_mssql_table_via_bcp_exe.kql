@@ -3,8 +3,7 @@
 // Date: 2024-08-20
 // Level: medium
 // Description: Detects the execution of the BCP utility in order to export data from the database.
-Attackers were seen saving their malware to a database column or table and then later extracting it via "bcp.exe" into a file.
-
+// Attackers were seen saving their malware to a database column or table and then later extracting it via "bcp.exe" into a file.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.exfiltration, attack.t1048
 // False Positives:

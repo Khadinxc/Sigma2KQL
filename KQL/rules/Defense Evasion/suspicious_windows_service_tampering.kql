@@ -3,7 +3,6 @@
 // Date: 2022-09-01
 // Level: high
 // Description: Detects the usage of binaries such as 'net', 'sc' or 'powershell' in order to stop, pause, disable or delete critical or important Windows services such as AV, Backup, etc. As seen being used in some ransomware scripts
-
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.impact, attack.t1489, attack.t1562.001
 // False Positives:

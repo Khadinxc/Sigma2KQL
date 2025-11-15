@@ -3,10 +3,9 @@
 // Date: 2022-08-10
 // Level: high
 // Description: Detects changes to the "Default" property for keys located in the \Software\Microsoft\Windows\CurrentVersion\App Paths\ registry. Which might be used as a method of persistence
-The entries found under App Paths are used primarily for the following purposes.
-First, to map an application's executable file name to that file's fully qualified path.
-Second, to prepend information to the PATH environment variable on a per-application, per-process basis.
-
+// The entries found under App Paths are used primarily for the following purposes.
+// First, to map an application's executable file name to that file's fully qualified path.
+// Second, to prepend information to the PATH environment variable on a per-application, per-process basis.
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.t1546.012
 // False Positives:

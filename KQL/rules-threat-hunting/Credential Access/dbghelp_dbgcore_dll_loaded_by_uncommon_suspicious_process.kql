@@ -3,10 +3,9 @@
 // Date: 2019-10-27
 // Level: medium
 // Description: Detects the load of dbghelp/dbgcore DLL by a potentially uncommon or potentially suspicious process.
-The Dbghelp and Dbgcore DLLs export functions that allow for the dump of process memory. Tools like ProcessHacker, Task Manager and some attacker tradecraft use the MiniDumpWriteDump API found in dbghelp.dll or dbgcore.dll.
-As an example, SilentTrynity C2 Framework has a module that leverages this API to dump the contents of Lsass.exe and transfer it over the network back to the attacker's machine.
-Keep in mind that many legitimate Windows processes and services might load the aforementioned DLLs for debugging or other related purposes. Investigate the CommandLine and the Image location of the process loading the DLL.
-
+// The Dbghelp and Dbgcore DLLs export functions that allow for the dump of process memory. Tools like ProcessHacker, Task Manager and some attacker tradecraft use the MiniDumpWriteDump API found in dbghelp.dll or dbgcore.dll.
+// As an example, SilentTrynity C2 Framework has a module that leverages this API to dump the contents of Lsass.exe and transfer it over the network back to the attacker's machine.
+// Keep in mind that many legitimate Windows processes and services might load the aforementioned DLLs for debugging or other related purposes. Investigate the CommandLine and the Image location of the process loading the DLL.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1003.001, detection.threat-hunting
 // False Positives:

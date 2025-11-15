@@ -3,8 +3,7 @@
 // Date: 2021-11-26
 // Level: high
 // Description: Detects when a user is potentially trying to bypass the Windows Defender AV by renaming a tool to dump64.exe and placing it in the Visual Studio folder.
-Currently the rule is covering only usage of procdump but other utilities can be added in order to increase coverage.
-
+// Currently the rule is covering only usage of procdump but other utilities can be added in order to increase coverage.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1003.001
 

@@ -3,7 +3,6 @@
 // Date: 2023-11-28
 // Level: high
 // Description: Detects changes to the Netsh registry key to add a new DLL value that is located on a suspicious location. This change might be an indication of a potential persistence attempt by adding a malicious Netsh helper
-
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.persistence, attack.t1546.007
 

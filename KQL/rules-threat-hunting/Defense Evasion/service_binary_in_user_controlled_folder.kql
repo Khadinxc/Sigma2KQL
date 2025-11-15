@@ -3,10 +3,9 @@
 // Date: 2022-05-02
 // Level: medium
 // Description: Detects the setting of the "ImagePath" value of a service registry key to a path controlled by a non-administrator user such as "\AppData\" or "\ProgramData\".
-Attackers often use such directories for staging purposes.
-This rule might also trigger on badly written software, where if an attacker controls an auto starting service, they might achieve persistence or privilege escalation.
-Note that while ProgramData is a user controlled folder, software might apply strict ACLs which makes them only accessible to admin users. Remove such folders via filters if you experience a lot of noise.
-
+// Attackers often use such directories for staging purposes.
+// This rule might also trigger on badly written software, where if an attacker controls an auto starting service, they might achieve persistence or privilege escalation.
+// Note that while ProgramData is a user controlled folder, software might apply strict ACLs which makes them only accessible to admin users. Remove such folders via filters if you experience a lot of noise.
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.persistence, attack.t1112, detection.threat-hunting
 

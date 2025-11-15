@@ -3,9 +3,8 @@
 // Date: 2022-01-24
 // Level: high
 // Description: Detects specific windows registry modifications made by BlackByte ransomware variants.
-BlackByte set three different registry values to escalate privileges and begin setting the stage for lateral movement and encryption.
-This rule triggers when any of the following registry keys are set to DWORD 1, however all three should be investigated as part of a larger BlackByte ransomware detection and response effort.
-
+// BlackByte set three different registry values to escalate privileges and begin setting the stage for lateral movement and encryption.
+// This rule triggers when any of the following registry keys are set to DWORD 1, however all three should be investigated as part of a larger BlackByte ransomware detection and response effort.
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.defense-evasion, attack.t1112, detection.emerging-threats
 

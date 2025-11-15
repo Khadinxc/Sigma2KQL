@@ -3,8 +3,7 @@
 // Date: 2021-10-15
 // Level: low
 // Description: Detects attempts to collect data stored in the clipboard from users with the usage of xclip tool. Xclip has to be installed.
-Highly recommended using rule on servers, due to high usage of clipboard utilities on user workstations.
-
+// Highly recommended using rule on servers, due to high usage of clipboard utilities on user workstations.
 // MITRE Tactic: Collection
 // Tags: attack.collection, attack.t1115
 // False Positives:

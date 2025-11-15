@@ -3,8 +3,7 @@
 // Date: 2023-10-27
 // Level: high
 // Description: Detects system discovery activity carried out by Pikabot, such as incl. network, user info and domain groups.
-The malware Pikabot has been seen to use this technique as part of its C2-botnet registration with a short collection time frame (less than 1 minute).
-
+// The malware Pikabot has been seen to use this technique as part of its C2-botnet registration with a short collection time frame (less than 1 minute).
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1016, attack.t1049, attack.t1087, detection.emerging-threats
 // False Positives:

@@ -3,9 +3,8 @@
 // Date: 2022-06-14
 // Level: medium
 // Description: Detects the execution of "forfiles" with the "/c" flag.
-While this is an expected behavior of the tool, it can be abused in order to proxy execution through it with any binary.
-Can be used to bypass application whitelisting.
-
+// While this is an expected behavior of the tool, it can be abused in order to proxy execution through it with any binary.
+// Can be used to bypass application whitelisting.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059
 // False Positives:

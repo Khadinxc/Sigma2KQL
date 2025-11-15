@@ -3,8 +3,7 @@
 // Date: 2024-11-01
 // Level: high
 // Description: Detects execution of commands via the run dialog box on Windows by checking values of the "RunMRU" registry key.
-This technique was seen being abused by threat actors to deceive users into pasting and executing malicious commands, often disguised as CAPTCHA verification steps.
-
+// This technique was seen being abused by threat actors to deceive users into pasting and executing malicious commands, often disguised as CAPTCHA verification steps.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059.001
 

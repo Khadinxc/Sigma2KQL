@@ -3,7 +3,6 @@
 // Date: 2024-07-22
 // Level: medium
 // Description: Detects file access attempts to sensitive Microsoft teams files (leveldb, cookies) by an uncommon process.
-
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1528
 

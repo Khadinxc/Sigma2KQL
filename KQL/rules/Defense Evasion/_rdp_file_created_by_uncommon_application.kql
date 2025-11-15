@@ -3,7 +3,6 @@
 // Date: 2023-04-18
 // Level: high
 // Description: Detects creation of a file with an ".rdp" extension by an application that doesn't commonly create such files.
-
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion
 

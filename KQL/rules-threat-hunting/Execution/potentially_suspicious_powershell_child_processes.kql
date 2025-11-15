@@ -3,8 +3,7 @@
 // Date: 2022-04-26
 // Level: medium
 // Description: Detects potentially suspicious child processes spawned by PowerShell.
-Use this rule to hunt for potential anomalies initiating from PowerShell scripts and commands.
-
+// Use this rule to hunt for potential anomalies initiating from PowerShell scripts and commands.
 // MITRE Tactic: Execution
 // Tags: attack.execution, attack.t1059.001, detection.threat-hunting
 // False Positives:

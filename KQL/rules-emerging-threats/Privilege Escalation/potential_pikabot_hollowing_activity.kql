@@ -3,8 +3,7 @@
 // Date: 2023-10-27
 // Level: high
 // Description: Detects the execution of rundll32 that leads to the invocation of legitimate Windows binaries.
-The malware Pikabot has been seen to use this technique for process hollowing through hard-coded Windows binaries
-
+// The malware Pikabot has been seen to use this technique for process hollowing through hard-coded Windows binaries
 // MITRE Tactic: Privilege Escalation
 // Tags: attack.privilege-escalation, attack.defense-evasion, attack.t1055.012, detection.emerging-threats
 // False Positives:

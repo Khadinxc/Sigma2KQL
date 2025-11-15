@@ -3,8 +3,7 @@
 // Date: 2024-07-03
 // Level: medium
 // Description: Detects registry set activity of a value called "Seed" stored in the "\Cryptography\Providers\" registry key.
-The Kapeka backdoor leverages this location to register a new SIP provider for backdoor configuration persistence.
-
+// The Kapeka backdoor leverages this location to register a new SIP provider for backdoor configuration persistence.
 // MITRE Tactic: Persistence
 // Tags: attack.persistence, attack.defense-evasion, attack.t1553.003, detection.emerging-threats
 

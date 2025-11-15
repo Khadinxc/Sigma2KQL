@@ -3,7 +3,6 @@
 // Date: 2024-06-22
 // Level: high
 // Description: Detects potential CSharp Streamer RAT loading .NET executable image by using the default file name and path associated with the tool.
-
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1219.002, detection.emerging-threats
 

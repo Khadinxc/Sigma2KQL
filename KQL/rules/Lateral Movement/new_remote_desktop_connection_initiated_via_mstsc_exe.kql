@@ -3,8 +3,7 @@
 // Date: 2022-01-07
 // Level: medium
 // Description: Detects the usage of "mstsc.exe" with the "/v" flag to initiate a connection to a remote server.
-Adversaries may use valid accounts to log into a computer using the Remote Desktop Protocol (RDP). The adversary may then perform actions as the logged-on user.
-
+// Adversaries may use valid accounts to log into a computer using the Remote Desktop Protocol (RDP). The adversary may then perform actions as the logged-on user.
 // MITRE Tactic: Lateral Movement
 // Tags: attack.lateral-movement, attack.t1021.001
 // False Positives:

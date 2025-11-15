@@ -3,7 +3,6 @@
 // Date: 2023-11-13
 // Level: high
 // Description: Detects suspicious child processes of Excel which could be an indicator of lateral movement leveraging the "ActivateMicrosoftApp" Excel DCOM object.
-
 // MITRE Tactic: Lateral Movement
 // Tags: attack.t1021.003, attack.lateral-movement
 

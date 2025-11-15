@@ -3,7 +3,6 @@
 // Date: 2023-07-18
 // Level: medium
 // Description: Detects uncommon and potentially suspicious one-liner command containing both "ping" and "copy" at the same time, which is usually used by malware.
-
 // MITRE Tactic: Defense Evasion
 // Tags: attack.defense-evasion, attack.t1070.004
 

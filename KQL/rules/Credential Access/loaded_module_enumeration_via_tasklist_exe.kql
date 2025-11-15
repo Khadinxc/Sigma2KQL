@@ -3,9 +3,8 @@
 // Date: 2024-02-12
 // Level: medium
 // Description: Detects the enumeration of a specific DLL or EXE being used by a binary via "tasklist.exe".
-This is often used by attackers in order to find the specific process identifier (PID) that is using the DLL in question.
-In order to dump the process memory or perform other nefarious actions.
-
+// This is often used by attackers in order to find the specific process identifier (PID) that is using the DLL in question.
+// In order to dump the process memory or perform other nefarious actions.
 // MITRE Tactic: Credential Access
 // Tags: attack.t1003, attack.credential-access
 

@@ -3,8 +3,7 @@
 // Date: 2025-04-03
 // Level: medium
 // Description: Detects potential access attempts to the PowerShell console history directly via history file (ConsoleHost_history.txt).
-This can give access to plaintext passwords used in PowerShell commands or used for general reconnaissance.
-
+// This can give access to plaintext passwords used in PowerShell commands or used for general reconnaissance.
 // MITRE Tactic: Credential Access
 // Tags: attack.credential-access, attack.t1552.001
 // False Positives:

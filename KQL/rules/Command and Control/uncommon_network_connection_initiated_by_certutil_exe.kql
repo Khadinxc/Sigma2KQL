@@ -3,8 +3,7 @@
 // Date: 2022-09-02
 // Level: high
 // Description: Detects a network connection initiated by the certutil.exe utility.
-Attackers can abuse the utility in order to download malware or additional payloads.
-
+// Attackers can abuse the utility in order to download malware or additional payloads.
 // MITRE Tactic: Command and Control
 // Tags: attack.command-and-control, attack.t1105
 

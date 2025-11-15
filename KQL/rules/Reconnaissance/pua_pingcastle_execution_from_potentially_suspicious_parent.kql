@@ -3,7 +3,6 @@
 // Date: 2024-01-11
 // Level: high
 // Description: Detects the execution of PingCastle, a tool designed to quickly assess the Active Directory security level via a script located in a potentially suspicious or uncommon location.
-
 // MITRE Tactic: Reconnaissance
 // Tags: attack.reconnaissance, attack.t1595
 

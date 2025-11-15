@@ -3,7 +3,6 @@
 // Date: 2023-11-20
 // Level: medium
 // Description: Detect attempts to query the contents of the event log using command line utilities. Attackers use this technique in order to look for sensitive information in the logs such as passwords, usernames, IPs, etc.
-
 // MITRE Tactic: Credential Access
 // Tags: attack.t1552, attack.credential-access, detection.threat-hunting
 // False Positives:

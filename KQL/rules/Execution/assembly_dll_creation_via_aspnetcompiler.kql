@@ -3,7 +3,6 @@
 // Date: 2023-08-14
 // Level: medium
 // Description: Detects the creation of new DLL assembly files by "aspnet_compiler.exe", which could be a sign of "aspnet_compiler" abuse to proxy execution through a build provider.
-
 // MITRE Tactic: Execution
 // Tags: attack.execution
 // False Positives:
