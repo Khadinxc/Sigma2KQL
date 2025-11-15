@@ -28,7 +28,7 @@ __Disclaimer: Not all of these rules have been validated either to ensure KQL is
 
 ## How do I use the helper to do this locally or in a Detection as Code pipeline?
 
-I've included a pip freeze of required librararies and as per standard practice for Python development I suggest creating a virtual environment not to _break_ system wide package management. 
+I've included a pip freeze of required libraries and as per standard practice for Python development I suggest creating a virtual environment not to _break_ system wide package management. 
 
 ### Run the following commands to get started:
 
