@@ -1,5 +1,6 @@
 ![Update Sigma Rules](https://github.com/Khadinxc/Sigma2KQL/actions/workflows/update-sigma-rules.yml/badge.svg)
-# Sigma2KQL - Working as of 15/11/2025
+![GitHub last commit](https://img.shields.io/github/last-commit/Khadinxc/Sigma2KQL)
+# Sigma2KQL - Automated Updates
 Sigma Queries turned into KQL for Defender and Microsoft Sentinel using [pysigma-backend-KQL-backend](https://github.com/AttackIQ/pySigma-backend-kusto/tree/main)
 
 __Disclaimer: Not all of these rules have been validated either to ensure KQL is functional or if they are an exact replica of the Sigma rule. The script was created with the assumption that the pySigma Kusto backend does what it is meant to do.__
