@@ -154,9 +154,15 @@ for rule_folder in RULE_FOLDERS:
             tags = yaml_contents.get("tags", [])
             TACTIC_FOLDER = extract_mitre_tactic(tags)
 
-            # Write the KQL query to a .kql file organized by tactic
-            BASE_OUTPUT_DIR = os.path.join(OUTPUT_BASE, rule_folder)
-            OUTPUT_DIR = os.path.join(BASE_OUTPUT_DIR, TACTIC_FOLDER)
+            # Preserve original sigma repository folder structure for outputs
+            # Compute the path of the YAML file relative to the sigma base
+            rel_path = os.path.relpath(yml, SIGMA_BASE)
+            rel_dir = os.path.dirname(rel_path)
+            # If the file was at the top-level of SIGMA_BASE, fall back to rule_folder
+            if rel_dir:
+                OUTPUT_DIR = os.path.join(OUTPUT_BASE, rel_dir)
+            else:
+                OUTPUT_DIR = os.path.join(OUTPUT_BASE, rule_folder)
             os.makedirs(OUTPUT_DIR, exist_ok=True)
 
             # Sanitize filename and convert to snake_case
