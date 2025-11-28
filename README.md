@@ -6,26 +6,12 @@ Sigma Queries turned into KQL for Defender and Microsoft Sentinel using [pysigma
 __Disclaimer: Not all of these rules have been validated either to ensure KQL is functional or if they are an exact replica of the Sigma rule. The script was created with the assumption that the pySigma Kusto backend does what it is meant to do.__
 
 ```
-├───rules
-│   └───KQL
-│       ├───Collection
-│       ├───Command and Control
-│       ├───Credential Access
-│       ├───Defense Evasion
-│       ├───Discovery
-│       ├───Execution
-│       ├───Exfiltration
-│       ├───Impact
-│       ├───Initial Access
-│       ├───Lateral Movement
-│       ├───Persistence
-│       ├───Privilege Escalation
-│       ├───Reconnaissance
-│       └───Resource Development
-├───rules-emerging-threats
-│   └───KQL
-└───rules-threat-hunting
-    └───KQL
+├───KQL
+│   ├───rules
+│   ├───rules-compliance
+│   ├───rules-emerging-threats
+│   ├───rules-placeholder
+│   └───rules-threat-hunting
 ```
 
 ## How do I use the helper to do this locally or in a Detection as Code pipeline?
