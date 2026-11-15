@@ -10,4 +10,4 @@
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules/windows/registry/registry_set/registry_set_change_rdp_port.yml
 
 DeviceRegistryEvents
-| where RegistryKey endswith "\\Control\\Terminal Server\\WinStations\\RDP-Tcp\\PortNumber" and (not(RegistryValueData =~ "DWORD (0x00000d3d)"))
+| where RegistryKey endswith "\\Control\\Terminal Server\\WinStations\\RDP-Tcp\\PortNumber" and (not((RegistryValueData in~ ("DWORD (0x00000d3d)", "3389"))))
