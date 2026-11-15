@@ -10,4 +10,4 @@
 //   - Unlikely
 
 DeviceRegistryEvents
-| where RegistryKey contains "\\CLSID\\{52A2AAAE-085D-4187-97EA-8C30DB990436}\\InprocServer32\\(Default)" and (not(RegistryValueData =~ "C:\\Windows\\System32\\hhctrl.ocx"))
+| where RegistryKey contains "\\CLSID\\{52A2AAAE-085D-4187-97EA-8C30DB990436}\\InprocServer32\\(Default)" and (not((RegistryValueData in~ ("%%SystemRoot%%\\System32\\hhctrl.ocx", "%%SystemRoot%%\\SysWOW64\\hhctrl.ocx", "%%windir%%\\System32\\hhctrl.ocx", "%%windir%%\\SysWOW64\\hhctrl.ocx", "%SystemRoot%\\System32\\hhctrl.ocx", "%SystemRoot%\\SysWOW64\\hhctrl.ocx", "%windir%\\System32\\hhctrl.ocx", "%windir%\\SysWOW64\\hhctrl.ocx", "C:\\Windows\\System32\\hhctrl.ocx", "C:\\Windows\\SysWOW64\\hhctrl.ocx"))))
