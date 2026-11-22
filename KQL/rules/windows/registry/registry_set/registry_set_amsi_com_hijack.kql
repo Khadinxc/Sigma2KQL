@@ -8,4 +8,4 @@
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules/windows/registry/registry_set/registry_set_amsi_com_hijack.yml
 
 DeviceRegistryEvents
-| where RegistryKey endswith "\\CLSID\\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}\\InProcServer32\\(Default)" and (not(RegistryValueData =~ "%windir%\\system32\\amsi.dll"))
+| where RegistryKey endswith "\\CLSID\\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}\\InProcServer32\\(Default)" and (not((RegistryValueData in~ ("%%SystemRoot%%\\System32\\amsi.dll", "%%SystemRoot%%\\SysWOW64\\amsi.dll", "%%windir%%\\System32\\amsi.dll", "%%windir%%\\SysWOW64\\amsi.dll", "%SystemRoot%\\System32\\amsi.dll", "%SystemRoot%\\SysWOW64\\amsi.dll", "%windir%\\System32\\amsi.dll", "%windir%\\SysWOW64\\amsi.dll", "C:\\Windows\\System32\\amsi.dll", "C:\\Windows\\SysWOW64\\amsi.dll"))))

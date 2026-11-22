@@ -11,4 +11,4 @@
 //   - Legitimate driver altitude change to hide sysmon
 
 DeviceRegistryEvents
-| where RegistryKey endswith "\\Services*" and RegistryKey endswith "\\Instances\\Sysmon Instance\\Altitude"
+| where (RegistryKey endswith "\\Services*" and RegistryKey endswith "\\Instances\\Sysmon Instance\\Altitude") and (not(RegistryValueData == 385201))
