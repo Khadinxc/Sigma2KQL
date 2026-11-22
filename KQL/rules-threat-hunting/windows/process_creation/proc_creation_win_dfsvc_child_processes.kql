@@ -7,7 +7,7 @@
 // Tags: attack.execution, detection.threat-hunting, attack.stealth
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules-threat-hunting/windows/process_creation/proc_creation_win_dfsvc_child_processes.yml
 // False Positives:
-//   - False positives are expected in environement leveraging ClickOnce deployments. An initial baselining is required before using this rule in production.
+//   - False positives are expected in environment leveraging ClickOnce deployments. An initial baselining is required before using this rule in production.
 
 DeviceProcessEvents
 | where FolderPath contains "\\AppData\\Local\\Apps\\2.0\\" and InitiatingProcessFolderPath endswith "\\dfsvc.exe"

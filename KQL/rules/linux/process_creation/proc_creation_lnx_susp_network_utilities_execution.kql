@@ -2,7 +2,7 @@
 // Author: Alejandro Ortuno, oscd.community, Georg Lauenstein (sure[secure])
 // Date: 2020-10-21
 // Level: low
-// Description: Detects execution of network scanning and reconnaisance tools. These tools can be used for the enumeration of local or remote network services for example.
+// Description: Detects execution of network scanning and reconnaissance tools. These tools can be used for the enumeration of local or remote network services for example.
 // MITRE Tactic: Discovery
 // Tags: attack.discovery, attack.t1046
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules/linux/process_creation/proc_creation_lnx_susp_network_utilities_execution.yml

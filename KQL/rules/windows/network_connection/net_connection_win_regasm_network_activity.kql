@@ -2,7 +2,7 @@
 // Author: frack113
 // Date: 2024-04-25
 // Level: medium
-// Description: Detects "RegAsm.exe" initiating a network connection to public IP adresses
+// Description: Detects "RegAsm.exe" initiating a network connection to public IP addresses
 // MITRE Tactic: Uncategorized
 // Tags: attack.stealth, attack.t1218.009
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules/windows/network_connection/net_connection_win_regasm_network_activity.yml

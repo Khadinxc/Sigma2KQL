@@ -2,7 +2,7 @@
 // Author: Florian Roth (Nextron Systems)
 // Date: 2022-06-07
 // Level: high
-// Description: Detects cases in which an ISO files is opend within an archiver like 7Zip or Winrar, which is a sign of phishing as threat actors put small ISO files in archives as email attachments to bypass certain filters and protective measures (mark of web)
+// Description: Detects cases in which an ISO files is opened within an archiver like 7Zip or Winrar, which is a sign of phishing as threat actors put small ISO files in archives as email attachments to bypass certain filters and protective measures (mark of web)
 // MITRE Tactic: Initial Access
 // Tags: attack.initial-access, attack.t1566
 // Reference: https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_archiver_iso_phishing.yml

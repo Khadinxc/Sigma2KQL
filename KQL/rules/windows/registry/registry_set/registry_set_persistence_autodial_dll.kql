@@ -10,4 +10,4 @@
 //   - Unlikely
 
 DeviceRegistryEvents
-| where RegistryKey contains "\\Services\\WinSock2\\Parameters\\AutodialDLL"
+| where RegistryKey contains "\\Services\\WinSock2\\Parameters\\AutodialDLL" and (not((RegistryValueData in~ ("%%SystemRoot%%\\System32\\rasadhlp.dll", "%%SystemRoot%%\\SysWOW64\\rasadhlp.dll", "%%windir%%\\System32\\rasadhlp.dll", "%%windir%%\\SysWOW64\\rasadhlp.dll", "%SystemRoot%\\System32\\rasadhlp.dll", "%SystemRoot%\\SysWOW64\\rasadhlp.dll", "%windir%\\System32\\rasadhlp.dll", "%windir%\\SysWOW64\\rasadhlp.dll", "C:\\Windows\\System32\\rasadhlp.dll", "C:\\Windows\\SysWOW64\\rasadhlp.dll"))))
